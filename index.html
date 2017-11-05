@@ -33,7 +33,7 @@
 				<div>
 					<div>
 						<div class="race-list-controls">
-							<a class="btn btn-primary btn-lg" href="https://airtable.com/shrfaIy2H9vE4NtGo" role="button">Új verseny rögzítése &raquo;</a> Ha ismeresz egy érdekes versenyt...
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#races-new-form">Új verseny rögzítése &raquo;</button> Ha ismeresz egy érdekes versenyt...
 							<div class="dropdown float-right">
 								<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									<img src="img/calendar-icon-24.png" style="height: 20px; " />Google Calendar
@@ -49,6 +49,19 @@
 						</div>
 						<p></p>
 
+						<div class="modal fade" id="races-new-form" role="dialog" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body">
+										<iframe class="airtable-embed" src="https://airtable.com/embed/shrfaIy2H9vE4NtGo?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="700" style="background: transparent;"></iframe>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Bezárás</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<iframe id="view-grid" class="airtable-embed view-races" src="https://airtable.com/embed/shrMJ7dkSBn0AKBPW?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 						<iframe id="view-calendar" class="airtable-embed view-races" src="https://airtable.com/embed/shrB2e0zdbA8fbLuH?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 					</div>
@@ -57,8 +70,22 @@
 	
 					<div>	
 						<p>
-							<a class="btn btn-primary btn-lg" href="https://airtable.com/shry9e7EWw5jiXByU" role="button">Új beszámoló rögzítése &raquo;</a> Beszámoló összekapcsolása a versennyel.
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stories-new-form">Új beszámoló rögzítése &raquo;</button> Beszámoló összekapcsolása a versennyel.
 						</p>
+
+						<div class="modal fade" id="stories-new-form" role="dialog" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body">
+										<iframe class="airtable-embed" src="https://airtable.com/embed/shry9e7EWw5jiXByU?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="700" style="background: transparent;"></iframe>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Bezárás</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<iframe class="airtable-embed" src="https://airtable.com/embed/shrcxB46hlvc8mgHQ?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 					</div>
 				</div>

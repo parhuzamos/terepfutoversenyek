@@ -6,13 +6,13 @@ Közösség által beküldött versenyek (és beszámolóik) listája.
 
 ## Érdemes címek
 
-https://bitly.com/terepfutoversenyek
+https://bit.ly/terepfutoversenyek
 https://www.facebook.com/groups/221951301177041/permalink/1589000697805421/
 https://github.com/parhuzamos/terepfutoversenyek
 
 ## Statisztika
 
-https://bitly.com/terepfutoversenyek+
+https://bit.ly/terepfutoversenyek+
 https://analytics.google.com/analytics/web/#embed/report-home/a22333493w163062287p163988941/ (privát)
 
 ## Átirányítások

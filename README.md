@@ -25,4 +25,3 @@ https://bit.ly/terepfutoversenyek -> http://terepfutoversenyek.s3-website.eu-wes
 * Google Sheets? 
 * Kártya szerű verseny megjelenítés?
 * Több táv egy versenyen? Hogy lehetne felvinni és megjeleníteni?
-* Visszajelzés küldése?

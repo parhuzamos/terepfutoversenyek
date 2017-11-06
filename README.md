@@ -6,18 +6,18 @@ Közösség által beküldött versenyek (és beszámolóik) listája.
 
 ## Érdemes címek
 
-https://bit.ly/terepfutoversenyek
-https://www.facebook.com/groups/221951301177041/permalink/1589000697805421/
-https://github.com/parhuzamos/terepfutoversenyek
+* https://bit.ly/terepfutoversenyek
+* https://www.facebook.com/groups/221951301177041/permalink/1589000697805421/
+* https://github.com/parhuzamos/terepfutoversenyek
 
 ## Statisztika
 
-https://bit.ly/terepfutoversenyek+
-https://analytics.google.com/analytics/web/#embed/report-home/a22333493w163062287p163988941/ (privát)
+* https://bit.ly/terepfutoversenyek+
+* https://analytics.google.com/analytics/web/#embed/report-home/a22333493w163062287p163988941/ (privát)
 
 ## Átirányítások
 
-https://bit.ly/terepfutoversenyek -> http://terepfutoversenyek.s3-website.eu-west-2.amazonaws.com/ -> https://parhuzamos.github.io/terepfutoversenyek/
+* https://bit.ly/terepfutoversenyek -> http://terepfutoversenyek.s3-website.eu-west-2.amazonaws.com/ -> https://parhuzamos.github.io/terepfutoversenyek/
 
 
 ## Teendők és kérdések:

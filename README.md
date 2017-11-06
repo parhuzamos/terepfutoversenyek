@@ -8,6 +8,7 @@ Közösség által beküldött versenyek (és beszámolóik) listája.
 
 https://bitly.com/terepfutoversenyek
 https://www.facebook.com/groups/221951301177041/permalink/1589000697805421/
+https://github.com/parhuzamos/terepfutoversenyek
 
 ## Statisztika
 

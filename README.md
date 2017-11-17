@@ -9,6 +9,34 @@ Közösség által beküldött versenyek (és beszámolóik) listája.
 * https://bit.ly/terepfutoversenyek
 * https://www.facebook.com/groups/221951301177041/permalink/1589000697805421/
 * https://github.com/parhuzamos/terepfutoversenyek
+* https://airtable.com/wsp3X36caxKBczgDV/ (privát)
+* https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn (api_key változhat! owner: john.doe455)
+
+## Közösségi hozzáférés (a versenyek adataihoz, JSON formátumban)
+
+Az Airtable lehetőséget ad API-n keresztüli adathozzáféréshez. Ennek a segítségével kikerülhető 
+    a https://bit.ly/terepfutoversenyek felület 
+    és bárki megjelenítheti az adatokat saját oldalán. Ha csak bizonyos versenyekre vagy kiváncsi és az oldaladon már szerepel
+    egy verseny/versenynaptár adatbázis (vagy hasonló), akkor a neked is lesz saját oszlopod az adatbázisban, 
+    amivel megjelölheted a számodra érdekes versenyeket. Az alábbi címen visszakapott adatokból egy valamirevaló webmester
+    már szép és odaillő versenybejegyzéseket tud készíteni a honlapod számára.
+
+Például: A terepfutas.hu sok versenyt rendez és egy csomó versennyel/versenyszervezővel van kapcsolatban. Vannak saját, 
+    támogatott és ajánlott versenyeik. Számukra a `mindenki_terepfutas` nevű oszlop áll rendelkezésre. Ebben az oszlopban
+    szereplő érték jelenti, hogy milyen kapcsolatban állnak a versennyel.
+    
+* 1 - ajánlott verseny 
+    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn&filterByFormula=IF(mindenki_terepfutas=1,%20TRUE(),%20FALSE())
+* 2 - partner verseny 
+    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn&filterByFormula=IF(mindenki_terepfutas=2,%20TRUE(),%20FALSE())
+* 3 - saját rendezésű verseny 
+    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn&filterByFormula=IF(mindenki_terepfutas=3,%20TRUE(),%20FALSE())
+
+Jelenlegi extra oszlopok, amely lista bővíthető, csak kérni kell:
+
+* mindenki_terepfutas
+* mindenki_nyulcipo
+* mindenki_futonaptar
 
 ## Statisztika
 
@@ -26,3 +54,8 @@ Közösség által beküldött versenyek (és beszámolóik) listája.
 * Google Sheets? 
 * Kártya szerű verseny megjelenítés?
 * Több táv egy versenyen? Hogy lehetne felvinni és megjeleníteni?
+
+    ### Csillagromboló
+    
+    * Track gpsies-be és onnan szintrajz (```//*[@id="chartImage"]```): https://www.gpsies.com/charts/sl/map/slggtidmqysaljxu_map.png?cacheId=1510313764110
+    

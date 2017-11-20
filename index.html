@@ -34,6 +34,12 @@
 				display: none;
 			}
 
+			#view-grid {
+				height: 1233px;
+			}
+			#view-calendar {
+				height: 533px;
+			}
 		</style>
 	</head>
     <body>
@@ -54,7 +60,7 @@
 					</p>
 				</div>
 				<div>
-					<div>
+					<div id="races-container">
 						<p>
 							<div class="race-list-controls">
 								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#races-new-form">Új verseny rögzítése &raquo;</button> Ha ismeresz egy érdekes versenyt...
@@ -86,8 +92,8 @@
 							</div>
 						</div>
 
-						<iframe id="view-grid" class="airtable-embed view-races" src="https://airtable.com/embed/shrMJ7dkSBn0AKBPW?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-						<iframe id="view-calendar" class="airtable-embed view-races" src="https://airtable.com/embed/shrB2e0zdbA8fbLuH?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+						<iframe id="view-grid" class="airtable-embed view-races" src="https://airtable.com/embed/shrMJ7dkSBn0AKBPW?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" style="background: transparent; border: 1px solid #ccc;"></iframe>
+						<iframe id="view-calendar" class="airtable-embed view-races" src="https://airtable.com/embed/shrB2e0zdbA8fbLuH?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" style="background: transparent; border: 1px solid #ccc;"></iframe>
 					</div>
 
 					<div id="stories-container">

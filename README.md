@@ -37,6 +37,7 @@ Jelenlegi extra oszlopok, amely lista bővíthető, csak kérni kell:
 * mindenki_terepfutas
 * mindenki_nyulcipo
 * mindenki_futonaptar
+* mindenki_wadkanz
 
 ## Statisztika
 

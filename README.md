@@ -43,6 +43,7 @@ Jelenlegi extra oszlopok, amely lista bővíthető, csak kérni kell:
 
 * https://bit.ly/terepfutoversenyek+
 * https://analytics.google.com/analytics/web/#embed/report-home/a22333493w163062287p163988941/ (privát)
+* https://developers.facebook.com/apps/1284990944938281/dashboard/ (privát)
 
 ## Átirányítások
 

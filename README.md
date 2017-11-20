@@ -51,11 +51,11 @@ Jelenlegi extra oszlopok, amely lista bővíthető, csak kérni kell:
 
 
 ## Teendők és kérdések:
-* Feltüntetni, hogy az oldal nem a futonaptar.hu, terepfutas.hu (és társaik) "ellen/helyére/kiváltására" készült. A lényeg a közösségi szerkesztés lehetősége, mert egy-két embertől nem elvárható az "adatbázis" bővítése/karbantartása.
-* Több, mint egy admin. Jelszó megosztás?
-* Google Sheets? 
 * Kártya szerű verseny megjelenítés?
-* Több táv egy versenyen? Hogy lehetne felvinni és megjeleníteni?
+* Feltüntetni, hogy az oldal nem a futonaptar.hu, terepfutas.hu (és társaik) "ellen/helyére/kiváltására" készült. A lényeg a közösségi szerkesztés lehetősége, mert egy-két embertől nem elvárható az "adatbázis" bővítése/karbantartása.
+* ~~Több, mint egy admin. Jelszó megosztás?~~ Lehet meghívni több szerkesztőt is az ingyenes verzióban.
+* ~~Google Sheets?~~ Úgy néz ki, hogy nem lesz rá szükség, elég sokmindent meg lehet csinálni az Airtable-ban is. 
+* ~~Több táv egy versenyen? Hogy lehetne felvinni és megjeleníteni?~~ Csak jelöljük a megfelelő oszlopban és a leírásban.
 
     ### Csillagromboló
     

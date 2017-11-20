@@ -23,7 +23,7 @@ Az Airtable lehetőséget ad API-n keresztüli adathozzáféréshez. Ennek a seg
 
 Például: A terepfutas.hu sok versenyt rendez és egy csomó versennyel/versenyszervezővel van kapcsolatban. Vannak saját, 
     támogatott és ajánlott versenyeik. Számukra a `mindenki_terepfutas` nevű oszlop áll rendelkezésre. Ebben az oszlopban
-    szereplő érték jelenti, hogy milyen kapcsolatban állnak a versennyel.
+    szereplő érték jelenti, hogy milyen kapcsolatban állnak a versennyel. (Ez csak egy példa, nem muszáj így használni ;).)
     
 * 1 - ajánlott verseny 
     * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn&filterByFormula=IF(mindenki_terepfutas=1,%20TRUE(),%20FALSE())

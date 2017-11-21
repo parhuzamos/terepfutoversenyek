@@ -51,6 +51,7 @@ Jelenlegi extra oszlopok, amely lista bővíthető, csak kérni kell:
 
 
 ## Teendők és kérdések:
+* Google Calendar link a menüben Firefox-ból nem használható
 * Valamiféle értesítő az új bejegyzésekről
     * Böngésző notification?
     * Pushbullet channel? https://www.pushbullet.com/channel?tag=terepfutoversenyek

@@ -78,7 +78,9 @@ Jelenlegi extra oszlopok, amely lista bővíthető, csak kérni kell:
 * facebook login `user_events` jogosultsággal -> kell login review-ra küldeni az app-ot
 * facebook login után a felhasználó versenyei alapján színezzük a dobozokat, az `attending` mező alapján. 
     a facebook event az url-ben levő azonosítóval lőhető be
-    
+* image/icon/logo
+    * https://www.upwork.com/o/profiles/browse/c/design-creative/sc/illustration/fb/45/min/5/rhrs/1/?q=illustration
+
 
 
 

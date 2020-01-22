@@ -10,7 +10,7 @@ Közösség által beküldött versenyek (és beszámolóik) listája.
 * https://www.facebook.com/groups/221951301177041/permalink/1589000697805421/
 * https://github.com/parhuzamos/terepfutoversenyek
 * https://airtable.com/wsp3X36caxKBczgDV/ (privát)
-* https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn (api_key változhat! owner: john.doe455)
+* https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyx2aWi2zJiMjynu (api_key változhat! owner: john.doe455)
 * http://www.futonaptar.info/cimke/trail
 * http://futonaptar.hu/
 * http://www.teljesitmenyturazoktarsasaga.hu/naptar
@@ -33,11 +33,11 @@ Például: A terepfutas.hu sok versenyt rendez és egy csomó versennyel/verseny
     szereplő érték jelenti, hogy milyen kapcsolatban állnak a versennyel. (Ez csak egy példa, nem muszáj így használni ;).)
     
 * 1 - ajánlott verseny 
-    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn&filterByFormula=IF(mindenki_terepfutas=1,%20TRUE(),%20FALSE())
+    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyx2aWi2zJiMjynu&filterByFormula=IF(mindenki_terepfutas=1,%20TRUE(),%20FALSE())
 * 2 - partner verseny 
-    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn&filterByFormula=IF(mindenki_terepfutas=2,%20TRUE(),%20FALSE())
+    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyx2aWi2zJiMjynu&filterByFormula=IF(mindenki_terepfutas=2,%20TRUE(),%20FALSE())
 * 3 - saját rendezésű verseny 
-    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyxGZ3Vo2s0bXFrn&filterByFormula=IF(mindenki_terepfutas=3,%20TRUE(),%20FALSE())
+    * https://api.airtable.com/v0/appJCMaMRAC9BiZkt/versenyek?api_key=keyx2aWi2zJiMjynu&filterByFormula=IF(mindenki_terepfutas=3,%20TRUE(),%20FALSE())
 
 Jelenlegi extra oszlopok, amely lista bővíthető, csak kérni kell:
 
